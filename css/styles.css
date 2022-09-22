@@ -10,24 +10,30 @@ h1 {
   font-family: Montserrat SemiBold, sans-serif;
   font-size: 4rem;
   line-height: 2;
-  margin: 0 auto 24px auto;
 }
 
 h2 {
-  color: #616161;
-  width: 40%;
+  color: #404040;
   margin: 0 auto 0 auto;
   font-family: Montserrat SemiBold,  sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: normal;
 }
 
 h3{
-  color: #757575;
+  color: #404040;
 }
 
 p{
-  color: #757575;
+  color: #404040;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9ED900;
+  border-width: 8px;
+  width: 4%;
 }
 
 /********** class selector **********/
@@ -45,7 +51,90 @@ p{
 }
 
 .top-container {
-  background-color: #DFF6FF;
+  background-color: #FFFFFF;
   position: relative;
   padding-top: 100px;
+}
+
+.title-desc{
+  color: #404040;
+  width: 40%;
+  margin: 24px auto 24px auto;
+  font-family: Montserrat Light,  sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.welcome-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  font-size: 1.5rem;
+}
+
+.components{
+  margin: 100px auto 100px auto;
+  width: 70%;
+}
+
+.components-row{
+  padding: 80px;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  background-color: #F5F5F5;
+}
+
+.btn-img{
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.tag-img{
+width: 100%;
+}
+
+.mdl-img{
+width: 100%;
+}
+
+.contact-me{
+  margin: 100px auto 100px auto;
+}
+
+.contact-spacing{
+  margin: 48px auto 48px auto;
+  color: #0F4C81;
+}
+
+.contact-text{
+  margin: 48px auto 48px auto;
+}
+
+.btn {
+  background: #0F4C81;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat SemiBold, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #9ED900;
+}
+
+.bottom-container{
+  background-color: #0F4C81;
+  padding: 48px;
+}
+
+.footer-link{
+  color: #FFFFFF;
+  margin: 24px;
+}
+
+.footer-link:hover{
+  color: #9ED900;
 }
