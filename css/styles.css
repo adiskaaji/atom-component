@@ -15,16 +15,16 @@ h1 {
 h2 {
   color: #404040;
   margin: 0 auto 0 auto;
-  font-family: Montserrat SemiBold,  sans-serif;
+  font-family: Montserrat SemiBold, sans-serif;
   font-size: 1.8rem;
   font-weight: normal;
 }
 
-h3{
+h3 {
   color: #404040;
 }
 
-p{
+p {
   color: #404040;
 }
 
@@ -37,17 +37,16 @@ hr {
 }
 
 /********** class selector **********/
-
 .top-bubble {
-  position: absolute;
-  top: 90px;
-  left: 1640px;
+  position: relative;
+  top: 30px;
+  left: 450px;
 }
 
 .bottom-bubble {
-  position: absolute;
-  top: 460px;
-  left: 120px;
+  position: relative;
+  top: 560px;
+  left: -450px;
 }
 
 .top-container {
@@ -56,27 +55,27 @@ hr {
   padding-top: 100px;
 }
 
-.title-desc{
+.title-desc {
   color: #404040;
   width: 40%;
   margin: 24px auto 24px auto;
-  font-family: Montserrat Light,  sans-serif;
+  font-family: Montserrat Light, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
 }
 
-.welcome-row{
+.welcome-row {
   width: 50%;
   margin: 100px auto 100px auto;
   font-size: 1.5rem;
 }
 
-.components{
+.components {
   margin: 100px auto 100px auto;
   width: 70%;
 }
 
-.components-row{
+.components-row {
   padding: 80px;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -84,29 +83,29 @@ hr {
   background-color: #F5F5F5;
 }
 
-.btn-img{
+.btn-img {
   width: 100%;
   margin: 0 auto 0 auto;
 }
 
-.tag-img{
-width: 100%;
+.tag-img {
+  width: 100%;
 }
 
-.mdl-img{
-width: 100%;
+.mdl-img {
+  width: 100%;
 }
 
-.contact-me{
+.contact-me {
   margin: 100px auto 100px auto;
 }
 
-.contact-spacing{
+.contact-spacing {
   margin: 48px auto 48px auto;
   color: #0F4C81;
 }
 
-.contact-text{
+.contact-text {
   margin: 48px auto 48px auto;
 }
 
@@ -121,20 +120,21 @@ width: 100%;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
+
 .btn:hover {
   background: #9ED900;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: #0F4C81;
   padding: 48px;
 }
 
-.footer-link{
+.footer-link {
   color: #FFFFFF;
   margin: 24px;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: #9ED900;
 }
